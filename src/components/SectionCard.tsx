@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import SpotlightCard from './SpotlightCard';
 import FadeContent from './FadeContent';
 import GlareHover from './GlareHover';

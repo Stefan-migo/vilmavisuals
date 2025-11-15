@@ -3,7 +3,7 @@ import StaggeredMenu from './StaggeredMenu';
 import { proposalData } from '../data/proposalData';
 
 const Sidebar = () => {
-  const [activeSection, setActiveSection] = useState('hero');
+  const [, setActiveSection] = useState('hero');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +29,7 @@ const Sidebar = () => {
     label: section.title,
     link: `#${section.id}`,
     ariaLabel: `Ir a ${section.title}`
-  }));
+  })) as Array<{ label: string; link: string; ariaLabel: string }>;
 
   useEffect(() => {
     // Handle smooth scroll for anchor links
@@ -56,6 +56,7 @@ const Sidebar = () => {
     <StaggeredMenu
       position="left"
       colors={['#000000', '#1a1a1a', '#262626']}
+      // @ts-ignore - StaggeredMenu is a JSX component without TypeScript definitions
       items={menuItems}
       menuButtonColor="#ffffff"
       openMenuButtonColor="#ffffff"

@@ -1,4 +1,5 @@
-import { useRef, ReactNode, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
+import type { ReactNode } from 'react';
 
 interface GlareHoverProps {
   children: ReactNode;
