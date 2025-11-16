@@ -8,14 +8,13 @@ export const proposalData: Section[] = [
   {
     id: 'introduccion',
     title: 'INTRODUCCIÓN',
-    content: 'Propuesta de producción y operación de visuales para la obra "La ley se viste de rosa" (adaptación de "Legalmente Rubia"), en el marco de la presentación final de curso de VLIMA Córdoba.'
+    content: 'Propuesta de producción y operación de visuales para la obra "La ley se viste de rosa", en el marco de la presentación final de curso de VLIMA Córdoba.'
   },
   {
     id: 'entendimiento',
     title: 'ENTENDIMIENTO DEL PROYECTO Y OBJETIVOS',
     content: [
-      '* Obra: "La ley se viste de rosa" (inspiración: Legally Blonde The Musical).',
-      '* Evento: Presentación final del curso de teatro musical de VLIMA Córdoba.',
+      '* Obra: "La ley se viste de rosa"',
       '* Locación: Teatro Brújula, Córdoba Capital.',
       '* Fechas Clave:',
       '  * Ensayo General: Miércoles 19 de Noviembre.',
@@ -23,22 +22,6 @@ export const proposalData: Section[] = [
       '* Formato: Dos funciones de 1 hora 40 minutos cada una.',
       '* Necesidad: Diseño, producción y operación de 10 visuales principales para videomapping que, complementados con animaciones sencillas, acompañen la totalidad de la obra, creando diferentes atmósferas y escenografías dinámicas.',
       '* Inspiración: Estética de "Legally Blonde The Musical".'
-    ]
-  },
-  {
-    id: 'presupuesto',
-    title: 'PRESUPUESTO',
-    content: [
-      'Estimación de Horas de Trabajo (Base para cálculo):',
-      '',
-      '* Diseño y Producción de Visuales (incluyendo 10 fondos y animaciones): 3 jornadas x 8 horas = 24 horas',
-      '* Ensayo General (Media Jornada): 4 horas',
-      '* Día de Presentación (2 funciones + armado/desarmado): 8 horas',
-      '* TOTAL HORAS ESTIMADAS: 36 horas',
-      '',
-      '* Descripción: Visuales de alta calidad profesional. Recreación fiel y estéticamente cuidada de las 10 referencias, complementadas con transiciones dinámicas y efectos reactivos sencillos. Ofrece un gran impacto visual y un acabado pulcro, ideal para una producción que busca destacarse con profesionalismo.',
-      '',
-      '* Costo total: ARS 500.000'
     ]
   },
   {
@@ -54,16 +37,16 @@ export const proposalData: Section[] = [
       '* Implementación de Animaciones Sencillas:',
       '  * Transiciones Dinámicas: Diseño de animaciones específicas para los cambios de escena, que conducirán de una imagen estática a la siguiente.',
       '  * Efectos Reactivos: Desarrollo de animaciones sutiles, como efectos de colores o bordes reactivos a la música, para enriquecer la experiencia visual en momentos clave.',
-      '* Optimización de la calidad de las visuales para el Teatro Brújula',
+      '* Optimización de la calidad de las visuales para el teatro la Brújula',
       '',
       '**Integración y Pruebas** (Ensayo General - 1/2 Jornada laboral estimada)',
       '',
       '* Asistencia el Miércoles 19 de Noviembre en el Teatro Brújula al ensayo general.',
-      '* Configuración y calibración del sistema de videomapping con el proyector del Teatro Brújula.',
-      '* Pruebas integrales durante el ensayo general.',
+      '* Configuración y calibración del sistema de videomapping con el proyector del teatro.',
+      '* Pruebas Integrales en el ensayo general',
       '* Recopilación de comentarios y realización de ajustes menores de timing o diseño durante el ensayo general.',
       '',
-      '**Operación en Presentaciones Finales** (1 Jornada completa estimada - día de show)',
+      '**Operación en Presentaciones Finales** (1 Jornada completa estimada - día de la obra)',
       '',
       '* Gestión y operación en vivo de los visuales vía videomapping durante las dos presentaciones finales de 1 hora 40 minutos cada una.',
       '* Asegurar la sincronización perfecta y la calidad visual durante todo el espectáculo.'
@@ -75,8 +58,8 @@ export const proposalData: Section[] = [
     content: '* Contenido Visual Digital y operación en vivo.'
   },
   {
-    id: 'hardware',
-    title: 'HARDWARE Y SOFTWARE',
+    id: 'tecnica',
+    title: 'TÉCNICA',
     content: [
       '* Se usarán equipos propios, computadora alta gama y programas de diseño/animación.',
       '* Las licencias de software necesarias ya están incluidas en el presupuesto.',
@@ -96,15 +79,28 @@ export const proposalData: Section[] = [
     ]
   },
   {
-    id: 'condiciones',
-    title: 'CONDICIONES DE PAGO',
+    id: 'presupuesto',
+    title: 'PRESUPUESTO',
     content: [
-      'Conversable.',
+      'Estimación de Horas de Trabajo:',
       '',
-      'De preferencia el siguiente esquema:',
+      '* Diseño y Producción de Visuales (incluyendo 10 fondos y animaciones): 3 jornadas x 8 horas = 24 horas',
+      '* Ensayo General: 4 horas',
+      '* Restructuración del diseño post ensayo general: 4 horas',
+      '* Día de Presentación: 6 horas',
+      '* TOTAL HORAS ESTIMADAS: 38 horas',
       '',
-      '* 50% del total al momento de la aceptación de la propuesta y firma del acuerdo.',
-      '* 50% restante al finalizar la operación en la primera presentación.'
+      '* Descripción: Visuales de alta calidad profesional. Recreación fiel y estéticamente cuidada de las 10 referencias, complementadas con transiciones dinámicas y efectos reactivos sencillos. Ofrece un gran impacto visual y un acabado pulcro, ideal para una producción que busca destacarse con profesionalismo.',
+      '',
+      '* costo total: ARS 500.000'
+    ]
+  },
+  {
+    id: 'condiciones',
+    title: 'FORMATO DE PAGO',
+    content: [
+      '* 50% del total al momento de la aceptación de la propuesta',
+      '* 50% restante al finalizar la operación de ambas presentaciones.'
     ]
   },
   {
@@ -114,7 +110,7 @@ export const proposalData: Section[] = [
       'Para cualquier consulta, no dude en contactarme:',
       '',
       'Stefan Miranda González',
-      '92105742298',
+      '+54 9 2972542298',
       'stefan.migo@gmail.com'
     ]
   }

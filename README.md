@@ -85,7 +85,7 @@ El proyecto incluye un archivo `vercel.json` con la configuración necesaria. Ve
 **Stefan Miranda González**
 
 - 📧 Email: stefan.migo@gmail.com
-- 📱 Teléfono: +54 9 2105 7422 98
+- 📱 Teléfono: +54 9 2972542298
 
 ## 📄 Licencia
 
