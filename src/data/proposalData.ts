@@ -25,6 +25,23 @@ export const proposalData: Section[] = [
     ]
   },
   {
+    id: 'presupuesto',
+    title: 'PRESUPUESTO',
+    content: [
+      'Estimación de Horas de Trabajo:',
+      '',
+      '* Diseño y Producción de Visuales (incluyendo 10 fondos y animaciones): 3 jornadas x 8 horas = 24 horas',
+      '* Ensayo General: 4 horas',
+      '* Restructuración del diseño post ensayo general: 4 horas',
+      '* Día de Presentación: 6 horas',
+      '* TOTAL HORAS ESTIMADAS: 38 horas',
+      '',
+      '* Descripción: Visuales de alta calidad profesional. Recreación fiel y estéticamente cuidada de las 10 referencias, complementadas con transiciones dinámicas y efectos reactivos sencillos. Ofrece un gran impacto visual y un acabado pulcro, ideal para una producción que busca destacarse con profesionalismo.',
+      '',
+      '* costo total: ARS 500.000'
+    ]
+  },
+  {
     id: 'alcance',
     title: 'ALCANCE DE LOS SERVICIOS Y METODOLOGÍA DE TRABAJO',
     content: [
@@ -55,7 +72,9 @@ export const proposalData: Section[] = [
   {
     id: 'entregables',
     title: 'ENTREGABLES',
-    content: '* Contenido Visual Digital y operación en vivo.'
+    content: [
+      '* Contenido Visual Digital y operación en vivo.'
+    ]
   },
   {
     id: 'tecnica',
@@ -76,23 +95,6 @@ export const proposalData: Section[] = [
       '* Miércoles 19 de Noviembre: Ensayo General en Teatro Brújula (1/2 Jornada). Ajustes Finales.',
       '* Del 20 al 29 de Noviembre: Posibles ajustes menores y preparación final',
       '* Sábado 30 de Noviembre: Operación en Vivo de las dos funciones.'
-    ]
-  },
-  {
-    id: 'presupuesto',
-    title: 'PRESUPUESTO',
-    content: [
-      'Estimación de Horas de Trabajo:',
-      '',
-      '* Diseño y Producción de Visuales (incluyendo 10 fondos y animaciones): 3 jornadas x 8 horas = 24 horas',
-      '* Ensayo General: 4 horas',
-      '* Restructuración del diseño post ensayo general: 4 horas',
-      '* Día de Presentación: 6 horas',
-      '* TOTAL HORAS ESTIMADAS: 38 horas',
-      '',
-      '* Descripción: Visuales de alta calidad profesional. Recreación fiel y estéticamente cuidada de las 10 referencias, complementadas con transiciones dinámicas y efectos reactivos sencillos. Ofrece un gran impacto visual y un acabado pulcro, ideal para una producción que busca destacarse con profesionalismo.',
-      '',
-      '* costo total: ARS 500.000'
     ]
   },
   {
